@@ -1,4 +1,4 @@
-# gpt-note-taker
+# GPT Note Taker
 
 This notebook is designed for streamlined note taking of UC Berkeley's Data Science 201 course. 
 
