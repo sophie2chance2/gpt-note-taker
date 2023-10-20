@@ -39,6 +39,29 @@ pip install -r requirements.txt
 5. Update the prompt section to match your desired note-taking format.
 6. Execute the notebook.
 
+## Usage
+
+### Example Prompt
+
+```
+f"""Topic: {section.title}
+    Detail Level: I would like something between high-level summary and detailed notes.
+    Learning Objectives: {'; '.join(section.lo)}
+    Format: I prefer the notes to be in bullet-point or table format.
+    Course Transcript: {section.text}
+    Purpose: The notes are for my personal understanding and to facilitate in class discussion with my peers."""
+```
+
+I asked ChatGPT what inputs it needs to be successful in creating the notes. Then I modified it slightly to fit my needs. I would recommend modifying the prompt to fit your needs as well.
+
+### Example Output
+
+![Alt text](image.png)
+
+## Disclaimer
+
+While this tool can enhance your note-taking experience, it's crucial to use it responsibly, especially in academic settings. Ensure you adhere to all academic integrity guidelines and any other applicable ethics principles when utilizing this notebook.
+
 ## Contributing
 
 Feel free to open issues for bugs or suggestions. If you want to contribute directly, open a pull request with your changes.
